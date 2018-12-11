@@ -7,5 +7,6 @@ class TestCalculator(unittest.TestCase):
 
               result = self.calc.add(4, 7)
               self.assertEqual(result, 11)
+
     if __name__ == "main":
         unittest.main()
